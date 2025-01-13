@@ -1,0 +1,19 @@
+# Ignore flashcard config
+flashcard.yml
+
+# VSCode folder
+.vscode/
+
+# Node modules
+node_modules/
+
+# Angular build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
