@@ -9,4 +9,10 @@ import { ChildComponent } from '../child/child.component';
   styleUrl: './parent.component.css'
 })
 export class ParentComponent {
+
+  value: string = '???';
+
+  reciveData(data: string): void {
+    this.value = data;
+  }
 }
